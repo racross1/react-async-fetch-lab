@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 
 
 class App extends Component {
-    state = {
-        data: []
-    }
-
 
     componentDidMount(){
         fetch('http://api.open-notify.org/astros.json')
@@ -16,7 +12,7 @@ class App extends Component {
 
     render(){
         return(
-            <div>{this.state.data}!</div>
+            <div>Hi!</div>
         )
 
     }
